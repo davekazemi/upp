@@ -1,0 +1,77 @@
+/* Urban Phoenix Project GIS Consultant Proposal Styles */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3b82f6;
+}
+
+.section-title {
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.gantt-chart {
+    display: grid;
+    grid-template-columns: 200px repeat(8, 1fr);
+    gap: 0px 4px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.gantt-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.85em;
+    padding: 8px 4px;
+    background-color: #f8fafc;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.gantt-bar {
+    background-color: #3b82f6;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 8px 2px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 2px 0;
+}
+
+.gantt-phase-name {
+    font-weight: 500;
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 0.9em;
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.gantt-row:nth-of-type(even) {
+    background-color: #f1f5f9;
+}
+
+.gantt-row:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.stat-card {
+    background-color: white;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border: 1px solid #e5e7eb;
+}
+
+
